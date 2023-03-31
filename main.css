@@ -1,0 +1,75 @@
+h1 {
+    font-family: arial;
+    color: transparent;
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  animation: effect 2s linear infinite;
+  }
+  
+  
+  body {
+  background-image: linear-gradient(#f9f1e8,#d0c4b4);
+  background-position: center; 
+  background-size: cover;
+  background-repeat:repeat;
+  background-attachment:fixed;
+  overflow:scroll;
+  font-family: arial;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-bottom: 25%;
+  margin-right: 45%;
+  width: 50%;
+  border: 3px solid #aa4948;
+  padding: 10px;
+  text-align: center;
+  content: "";
+  clear: both;
+  display: table;
+  line-height: 1.5;
+  }
+  
+  canvas {
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+  }
+  
+  input {
+    font-size: 14pt;
+  }
+
+  .button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: #aa4948;
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  font-size: 18px;
+  
+}
+  .button:hover{
+    background-color: #d0c4b4;
+  }
+  @keyframes effect {
+    0% {
+        background: linear-gradient(
+          #aa4948, #f5c0bf);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(
+          #f5c0bf, #aa4948);
+        -webkit-background-clip: text;
+    }
+}
+
